@@ -10,6 +10,7 @@ class Employee(models.Model):
     # describing employee's sex
     male = "Male"
     female = "Female"
+    secret = "Secret"
     SEX_CHOICES = (
         (male, "Male"),
         (female, "Female"),
