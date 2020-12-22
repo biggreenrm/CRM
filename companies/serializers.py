@@ -8,4 +8,4 @@ from rest_framework import serializers
 class CompanySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Company
-        fields = ['name', 'country', 'foundation', 'area']
+        fields = ['id', 'name', 'country', 'foundation', 'area']
