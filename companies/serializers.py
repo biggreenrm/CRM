@@ -1,4 +1,7 @@
+# First-party
 from .models import Company
+
+# Third-party
 from rest_framework import serializers
 
 # Serializer для модели Company
