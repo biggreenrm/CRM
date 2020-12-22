@@ -25,3 +25,6 @@ class Company(models.Model):
     country = models.CharField(max_length=200)
     foundation = models.DateField()
     area = models.CharField(max_length=200, choices=AREA_CHOICES, default=unknown)
+
+    def __str__(self):
+        return self.name
