@@ -12,7 +12,7 @@ from rest_framework import permissions
 
 class EmployeeViewSet(viewsets.ModelViewSet):
     """
-    API эндпоинт, который позволяет компаниям быть отображенными, или изменять их.
+    API эндпоинт, который позволяет сотрудникам быть отображенными или изменёнными
     """
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
